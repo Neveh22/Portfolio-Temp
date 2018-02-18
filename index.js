@@ -6,7 +6,7 @@ $("#navbar2 a").on("click", function(event) {
     event.preventDefault();
 
     // Store hash
-    var hash = this.hash;
+    let hash = this.hash;
 
     // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
     $("html, body").animate({
