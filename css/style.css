@@ -6,6 +6,7 @@
 }
 
 html {
+  display: grid;
   box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 900;
@@ -20,6 +21,7 @@ html {
 }
 
 body {
+  width: 100%;
   background: var(--grey) url(https://www.freelogoservices.com/api/main/images/1j+ojVVCOMkX9Wyrexe4hGfXlYeW8BVCjkKUgzNoYzZM...QZrkSQ7w6wytLhuJxwF4FkChBUGccA=) no-repeat fixed center;
   min-height: calc(100vh - 100px);
   margin-bottom: 100px;
@@ -312,10 +314,10 @@ body>div.container>div.portfolio>div>a {
 }
 
 .footer {
+  position: absolute;
   border-top: 6px solid var(--black);
   padding-top: 6px;
   border-radius: 5px;
-  position: absolute;
   box-shadow: 0 0 20px black;
 }
 
